@@ -1,0 +1,136 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$modal-md: 930px;
+$input-font-size: 14px;
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background: linear-gradient(
+    -45deg,
+    #fcbaa6,
+    #fc9879,
+    #ee8f72,
+    #fc9879,
+    #f88f6f,
+    #f3a189,
+    #f5b19d,
+    #f5c59d,
+    #eef5af,
+    #e0f3bd,
+    #b5f5a8,
+    #abf5a8,
+    #9ff3c5,
+    #9fecdf,
+    #93eef1,
+    #82c8f0,
+    #7eaee6,
+    #5aa9d6,
+    #23d5ab,
+    #88f7dd
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  min-height: 100dvh;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#root {
+  flex-grow: 1;
+}
+
+.bg-color {
+  background-color: rgb(233, 227, 247);
+}
+.bg-image {
+  background-image: url("/background.png");
+}
+
+.container-height {
+  height: 90px;
+}
+
+.text-small {
+  font-size: 0.8rem;
+}
+
+.text-xs {
+  font-size: 0.6rem;
+}
+
+.width-1 {
+  width: 220px;
+}
+
+.width-1440 {
+  width: 1440px;
+}
+
+.first-text-container {
+  width: 260px;
+}
+
+.bag-container {
+  width: 160px;
+}
+
+.bag-position {
+  top: 8%;
+  left: 40%;
+}
+
+.first-arrow-container {
+  width: 120px;
+}
+
+.first-arrow-position {
+  top: 30%;
+  left: 20%;
+}
+
+.second-text-container {
+  width: 510px;
+  text-wrap: balance;
+}
+
+.second-arrow-container {
+  width: 70px;
+}
+
+.second-arrow-position {
+  top: 50%;
+  left: 20%;
+}
+
+.computer-container {
+  width: 140px;
+}
+
+.computer-position {
+  top: 40%;
+  left: 40%;
+}
+
+.modal-padding {
+  padding: 0px 55px 40px;
+}
