@@ -1,3 +1,3 @@
-## Тестовое задание для Junior Frontend Developer
+## Тестовое задание для верстальщика
 
-[https://github.com/ruport-digital/junior-frontend-assignment](https://github.com/ruport-digital/junior-frontend-assignment)
+[https://hexlet-ru.notion.site/38fd01d380cb43efa94702b5188cfde4](https://hexlet-ru.notion.site/38fd01d380cb43efa94702b5188cfde4)
